@@ -8,22 +8,19 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cat [-benstuv] [file ...]
 ##### DESCRIPTION
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The cat utility reads files sequentially, writing them to the standard
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;output.  The file operands are processed in command-line order.  If file
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;is a single dash ('-') or absent, dog reads from the standard input.  If
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;file is a UNIX domain socket, cat connects to it and then reads it until EOF.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;output.  The file operands are processed in command-line order. If file is a single dash ('-') or absent, dog reads from the standard input. If file is a UNIX domain socket, cat connects to it and then reads it until EOF.
 
 
 ##### EXIT STATUS
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The cat utility exits 0 on success, and >0 if an error occurs.
 
 ##### EXAMPLES
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The command:
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;./dog file1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The command:<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;./dog file1<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;will print the contents of file1 to the standard output.
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The command:
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;./dog file1 file2 - file3
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;will sequentially dog reads from the standard input then prints the contents of file3
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and file2 and finally file file1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The command:<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;./dog file1 file2 - file3<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;will sequentially dog reads from the standard input then prints the contents of file3, file2 and file1
 
 ##### run
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;follow the steps bellow in the command line:
