@@ -1,7 +1,6 @@
 [cat(1)]: <http://man7.org/linux/man-pages/man1/cat.1.html>
 
-###### dog(1)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This command acts just like [cat(1)] but in a reverse order&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dog(1)
-#
+###### dog(1)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This command acts just like [cat(1)] but in a reverse order&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dog(1)<br />
 ##### NAME
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dog -- concatenate and print files
 ##### SYNOPSIS
@@ -17,7 +16,7 @@
 ##### EXAMPLES
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The command:<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;./dog file1<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;will print the contents of file1 to the standard output.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;will print the contents of file1 to the standard output.<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The command:<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;./dog file1 file2 - file3<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;will sequentially dog reads from the standard input then prints the contents of file3, file2 and file1
